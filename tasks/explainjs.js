@@ -1,6 +1,6 @@
 /*
  * grunt-explainjs
- * https://github.com/collin/grunt-explainjs
+ * https://github.com/collinforrester/grunt-explainjs
  *
  * Copyright (c) 2013 Collin Forrester
  * Licensed under the MIT license.
@@ -13,7 +13,7 @@ module.exports = function(grunt) {
   // Please see the Grunt documentation for more information regarding task
   // creation: http://gruntjs.com/creating-tasks
 
-  grunt.registerMultiTask('explainjs', 'Your task description goes here.', function() {
+  grunt.registerMultiTask('explainjs', 'generate a side-by-side view of comments and code', function() {
     // Merge task-specific and/or target-specific options with these defaults.
     var options = this.options({
       punctuation: '.',
