@@ -41,6 +41,7 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "explainjs": "0.0.9"
+    "explainjs": "0.0.9",
+    "handlebars": "1.0.10"
   }
 }

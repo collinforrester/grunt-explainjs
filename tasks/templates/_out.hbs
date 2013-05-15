@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>{{filename}} | ExplainJS by grunt-explainjs</title>
+  <link rel="stylesheet" type="text/css" href="css/unsemantic.css"/>
+  <link rel="stylesheet" type="text/css" href="css/explain.css"/>
+  <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1" />
+</head>
+
+<body>
+  <div class='page-menu'>
+    <div class='grid-container'>
+      <div class='grid-60 mobile-grid-100'>
+        <a class='logo' href='http://www.explainjs.com'>ExplainJS</a> by <a class='logo' href='https://github.com/collinforrester/grunt-explainjs'>grunt-explainjs</a>
+        {{#if filename}}
+          for
+          <a href='{{filename}}' class='src-title'>{{filename}}</a>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+  <div class='sections grid-container'>
+    <div class='code-bg hide-on-mobile'>
+    </div>
+    <br />
+    <br />
+    {{#each sections}}
+      <div class='section'>
+        <div class='comment grid-40 mobile-grid-100 not-empty'>
+          {{{this.comments}}}
+        </div>
+        <div class='code grid-60 mobile-grid-100 not-empty'>
+          <pre>
+            {{{this.code}}}
+          </pre>
+        </div>
+      </div>
+      <div class='clear'>
+      </div>
+    {{/each}}
+  </div>
+</body>
+</html>
