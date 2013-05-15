@@ -16,6 +16,8 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 
 ## The "explainjs" task
 
+[Here](http://www.explainjs.com/explain?src=https%3A%2F%2Fraw.github.com%2Fcollinforrester%2Fgrunt-explainjs%2Fmaster%2Ftasks%2Fexplainjs.js) is [ExplainJS](http://www.explainjs.com) ran on this grunt plugin.
+
 ### Overview
 In your project's Gruntfile, add a section named `explainjs` to the data object passed into `grunt.initConfig()`.
 
