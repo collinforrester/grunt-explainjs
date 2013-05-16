@@ -38,7 +38,11 @@
     "grunt": "~0.4.1"
   },
   "keywords": [
-    "gruntplugin"
+    "gruntplugin",
+    "explainjs",
+    "annotated source",
+    "commented code",
+    "javascript"
   ],
   "dependencies": {
     "explainjs": "0.0.9",
