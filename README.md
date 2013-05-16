@@ -46,7 +46,6 @@ With the following config:
 ```js
 grunt.initConfig({
   explainjs: {
-    options: {},
     files: {
       'dist/explainjs/explain.html': ['dist/scripts/scripts.js'],
     },
