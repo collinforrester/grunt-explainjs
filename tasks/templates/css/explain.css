@@ -115,8 +115,10 @@ body {
   padding: 20px 20px 20px 10px;
   border-top: solid 1px #eee;
 }
-.code pre {
+.code pre, .comment code {
   font-family: 'Inconsolata', Menlo, Monaco, Consolas, "Lucida Console", monospace;
+}
+.code pre {
   color: #333;
   letter-spacing: -1px;
   line-height: 1em;
