@@ -85,4 +85,5 @@ Specifies whether or not to show (and include a link to) the file that ExplainJS
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
+09/12/2013 - 0.0.2 Fixed pre tag generation, package.json typos (thanks kevmoo)
 05/15/2013 - 0.0.1 initial release
