@@ -80,6 +80,12 @@ Default value: `false`
 
 Specifies whether or not to show (and include a link to) the file that ExplainJS was ran on.  In some (most?) cases that file will be minified or moved.  But if needed, the option is there.
 
+#### options.templatePath
+Type: `String`
+Default value: `node_modules/grunt-explainjs/tasks/templates/_out.hbs`
+
+Sets the path of ExplainJS template. You can set template path as:    
+`templatePath: '<%= config.app %>/templates/_template.hbs'`
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
