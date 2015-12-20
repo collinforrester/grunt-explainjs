@@ -19,7 +19,8 @@ module.exports = function(grunt) {
     // Merge task-specific and/or target-specific options with these defaults.
     var options = this.options({
       punctuation: '.',
-      separator: ', '
+      separator: ', ',
+      templatePath: 'node_modules/grunt-explainjs/tasks/templates/_out.hbs' // default template path
     });
 
     var done = this.async();
@@ -61,7 +62,7 @@ module.exports = function(grunt) {
 
         results.filename = options.showFilename? relativePathToSrcFile : '';
 
-        var template = Handlebars.compile(grunt.file.read('node_modules/grunt-explainjs/tasks/templates/_out.hbs')),
+        var template = Handlebars.compile(grunt.file.read(options.templatePath)),
             html = template(results);
 
         // Write the destination file.
