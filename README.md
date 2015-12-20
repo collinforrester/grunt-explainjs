@@ -84,12 +84,13 @@ Specifies whether or not to show (and include a link to) the file that ExplainJS
 Type: `String`
 Default value: `node_modules/grunt-explainjs/tasks/templates/_out.hbs`
 
-Sets the path of ExplainJS template. You can set template path as:    
+Sets the path of ExplainJS template. You can set template path as:
 `templatePath: '<%= config.app %>/templates/_template.hbs'`
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
+12/20/2015 - 0.0.3 Added ability to specify templatePath in the options (thanks alaabadran)
 09/12/2013 - 0.0.2 Fixed pre tag generation, package.json typos (thanks kevmoo)
 05/15/2013 - 0.0.1 initial release
