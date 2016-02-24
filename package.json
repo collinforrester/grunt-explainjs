@@ -1,7 +1,7 @@
 {
   "name": "grunt-explainjs",
   "description": "A grunt plugin to generate instant side-by-side view of your comments and code.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "https://github.com/collinforrester/grunt-explainjs",
   "author": {
     "name": "Collin Forrester",
